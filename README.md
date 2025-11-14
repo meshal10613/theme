@@ -9,11 +9,11 @@ A lightweight and versatile theme manager that allows you to set, get, and contr
 Using **npm**:
 
 ```bash
-npm install theme
+npm i @meshal10613/theme
 ```
 Or using **yarn**:
 ```bash
-yarn add theme
+yarn add @meshal10613/theme
 ```
 
 ## 🧠 Usage
@@ -21,7 +21,7 @@ yarn add theme
 CommonJS (Node.js)
 
 ```js
-const { setTheme, getTheme } = require('theme');
+const { setTheme, getTheme } = require('@meshal10613/theme');
 
 setTheme("dark");
 console.log(getTheme()); // "dark"
@@ -31,7 +31,7 @@ console.log(getTheme()); // "dark"
 ES Module (if your project uses "type": "module")
 
 ```js
-import { setTheme, getTheme } from 'theme';
+import { setTheme, getTheme } from '@meshal10613/theme';
 
 setTheme("light");
 console.log(getTheme()); // "light"
@@ -96,6 +96,6 @@ MIT License © 2025 Syed Mohiuddin Meshal
 
 ## 🌐 Links
 
-NPM: https://www.npmjs.com/package/theme
+NPM: https://www.npmjs.com/package/@meshal10613/theme
 
 GitHub Repository: https://github.com/meshal10613/theme
