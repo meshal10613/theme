@@ -1,0 +1,48 @@
+{
+    "name": "theme",
+    "version": "1.0.0",
+    "description": "A lightweight theme manager for JavaScript, TypeScript, React, Next.js, and Node.js. Easily set, get, and control themes including system default.",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/types/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./dist/cjs/index.js",
+            "import": "./dist/esm/index.js"
+        }
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest run"
+    },
+    "keywords": [
+        "theme",
+        "dark-mode",
+        "light-mode",
+        "javascript",
+        "typescript",
+        "react",
+        "nextjs",
+        "frontend",
+        "backend",
+        "theme-manager"
+    ],
+    "author": "Syed Mohiuddin Meshal <syedmohiuddinmeshal24@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^24.10.1",
+        "eslint": "^9.39.1",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.3",
+        "vitest": "^4.0.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meshal10613/theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/meshal10613/theme/issues"
+    },
+    "homepage": "https://github.com/meshal10613/theme#readme"
+}
