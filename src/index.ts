@@ -1,6 +1,8 @@
-import ThemeManager from "./themeManager";
+import { themeManager } from "./themeManager";
 
 export const setTheme = (theme: "light" | "dark" | "system") =>
-    ThemeManager.setTheme(theme);
-export const getTheme = () => ThemeManager.getTheme();
-export const themeManager = ThemeManager;
+    themeManager.setTheme(theme);
+
+export const getTheme = () => themeManager.getTheme();
+
+export { themeManager };

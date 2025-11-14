@@ -29,4 +29,6 @@ class ThemeManager {
     }
 }
 
-export default new ThemeManager();
+// ✅ Named export of instance
+export const themeManager = new ThemeManager();
+export default themeManager;
