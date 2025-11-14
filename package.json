@@ -1,6 +1,6 @@
 {
     "name": "@meshal10613/theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lightweight theme manager for JavaScript, TypeScript, React, Next.js, and Node.js. Easily set, get, and control themes including system default.",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
